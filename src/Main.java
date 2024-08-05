@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 //        Task2.checkSumSign();
-        Task3.printColor();
+//        Task3.printColor();
+        Task4.compareNumbers();
     }
 }
