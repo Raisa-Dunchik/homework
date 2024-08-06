@@ -1,13 +1,12 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-//        Task2.checkSumSign();
-//        Task3.printColor();
-//        Task4.compareNumbers();
-//        boolean result = Task5.checkSum(5, 120);
-//        System.out.println(result);
-      Task6.checkNumber(0);
-
+    static public void main(String[] args) {
+        int num1 = -5;
+        int num2 = 0;
+        int num3 = 10;
+        System.out.println(num1 + " отрицательное? " + Task7.isNegative(num1));
+        System.out.println(num2 + " отрицательное? " + Task7.isNegative(num2));
+        System.out.println(num3 + " отрицательное? " + Task7.isNegative(num3));
     }
 }
