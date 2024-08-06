@@ -5,7 +5,9 @@ public class Main {
 //        Task2.checkSumSign();
 //        Task3.printColor();
 //        Task4.compareNumbers();
-        boolean result = Task5.checkSum(5, 120);
-        System.out.println(result);
+//        boolean result = Task5.checkSum(5, 120);
+//        System.out.println(result);
+      Task6.checkNumber(0);
+
     }
 }
