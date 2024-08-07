@@ -4,12 +4,13 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int[] array = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < 6) {
-                array[i] *= 2;
-            System.out.println(array[i] + "");
+ int n = 5;
+ int[][] matrix = new int[n][n];
+        for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+        System.out.println(matrix[i][j] + "");
             }
+        System.out.println();
         }
-    }
-}
+                }
+                }
