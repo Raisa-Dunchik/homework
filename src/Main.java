@@ -4,13 +4,12 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
   public static void main(String[] args) {
-    int [] arr = new int [1];
-    int [] test1 = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
-      System.out.println(Arrays.toString(test1));
+   int[] array = new int[100];
+      for (int i = 0; i < array.length; i++) {
+          array[i] = i + 1;
+      System.out.print(array[i] + " ");
     }
   }
-
-
-
+  }
 
 
